@@ -138,8 +138,7 @@ function patch_for_7.0.0() {
 }
 
 function build() {
-        #REPO_URL="https://raw.githubusercontent.com/linux-on-ibm-z/scripts/master/Elasticsearch/${PACKAGE_VERSION}"
-        REPO_URL="https://raw.githubusercontent.com/james-crowley/scripts/master/Elasticsearch/${PACKAGE_VERSION}"
+        REPO_URL="https://raw.githubusercontent.com/linux-on-ibm-z/scripts/master/Elasticsearch/${PACKAGE_VERSION}"
 
         printf -- '\nBuild started \n'
 
